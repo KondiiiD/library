@@ -36,7 +36,7 @@ MangoExpress is accessible under `localhost:8081` address.
 | `Find all customer's loans` | `GET` | /loans/{customerId} |
 | `Find all customer's loans of specific book` | `GET` | /loans/{customerId}/{bookId} |
 | `Borrow book` | `POST` | /loans/{customerId}/{bookId} |
-| `Return book` | `GET` | /loans/{customerId}/{bookId} |
+| `Return book` | `PATCH` | /loans/{customerId}/{bookId} |
 
 
 Feel free to use some of these Json objects
